@@ -6,8 +6,8 @@ const localLanguage = localStorage.getItem("lng");
 function Header() {
     const [language, setlanguage] = useState(localLanguage ? localLanguage : "es");
 
-    const changeLanguage = (e) => {
-        setlanguage(e.target.value);
+    const changeLanguage = (lang) => {
+        setlanguage(lang);
     };
 
     useEffect(() => {
@@ -38,10 +38,15 @@ function Header() {
                             <a href="#footer">Contact Us</a>
                         </li>
                         <li>
-                            <select onChange={changeLanguage} defaultValue={language}>
-                                <option value={"en"}>English</option>
-                                <option value={"es"}>Spanish</option>
-                            </select>
+                            <a href="#">{language}</a>
+                            <ul className="submenu">
+                                <li>
+                                    <a onClick={() => changeLanguage("en")}>English</a>
+                                </li>
+                                <li>
+                                    <a onClick={() => changeLanguage("es")}>Spanish</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                     <div className="header-bar d-lg-none">

@@ -1,6 +1,10 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
+import {namespaces} from "src/i18n/i18n.constants";
 
 function Banner() {
+    const {t} = useTranslation(namespaces.pages.banner);
+
     return (
         <section className="banner-section2">
             <img
@@ -21,15 +25,12 @@ function Banner() {
                     <div className="col-lg-7">
                         <div className="main-content">
                             <h1 className="main-sub-title wow fadeInLeft" data-wow-delay=".2s">
-                                Welcome to Maestro food
+                                {t("welcome")}
                             </h1>
                             <h1 className="main-title wow fadeInRight" data-wow-delay=".2s">
-                                Food is Art
+                                {t("slogan")}
                             </h1>
-                            <p className="text">
-                                {`Our dishes are not a list of ingredients, they're a blend of
-                                techniques, cultures and passion`}
-                            </p>
+                            <p className="text">{t("quote")}</p>
                         </div>
                     </div>
                 </div>

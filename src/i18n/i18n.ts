@@ -11,8 +11,8 @@ const createI18n = (language: string): i18nInstance => {
             backend: {
                 loadPath: "./locales/{{lng}}/{{ns}}.json" // Specify where backend will find translation files.
             },
-            lng: language,
-            fallbackLng: language,
+            lng: localStorage.getItem("lng") || language || "es",
+            fallbackLng: localStorage.getItem("lng") || language || "es",
             ns: namespaces.common
         });
 

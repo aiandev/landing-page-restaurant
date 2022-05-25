@@ -1,6 +1,20 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import {i18n} from "src/i18n/i18n";
+
+const localLanguage = localStorage.getItem("lng");
 
 function Header() {
+    const [language, setlanguage] = useState(localLanguage ? localLanguage : "es");
+
+    const changeLanguage = (e) => {
+        setlanguage(e.target.value);
+    };
+
+    useEffect(() => {
+        localStorage.setItem("lng", language);
+        i18n.changeLanguage(language);
+    }, [language]);
+
     return (
         <header className="header-section">
             <div className="container">
@@ -22,6 +36,12 @@ function Header() {
                         </li>
                         <li>
                             <a href="#footer">Contact Us</a>
+                        </li>
+                        <li>
+                            <select onChange={changeLanguage} defaultValue={language}>
+                                <option value={"en"}>English</option>
+                                <option value={"es"}>Spanish</option>
+                            </select>
                         </li>
                     </ul>
                     <div className="header-bar d-lg-none">

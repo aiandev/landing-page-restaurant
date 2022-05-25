@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
+
+/*
+******CSS Table of Content ******
+--------------------------
+Reset CSS Start
+--------------------------
+General CSS
+--------------------------
+Footer Section Start
+--------------------------
+Header Section Start
+--------------------------
+Banner-Section Starts Here
+--------------------------
+About Starts Here
+--------------------------
+Menu Starts Here
+--------------------------
+Book-Table Section Starts Here
+--------------------------
+Testimonial Section Starts Here
+--------------------------
+Menubanner Section Starts Here
+--------------------------
+Statistics-Section Starts Here
+--------------------------
+Service-Section Starts Here
+--------------------------
+Team-Section Starts Here
+--------------------------
+Amenities-Section Starts Here
+--------------------------
+Breadcrumb-Section Stars Here
+--------------------------
+
+*/
+
+@import '_abstracts/_mixins';
+@import '_abstracts/_variables';
+@import '_base/_reset';
+@import '_base/_global';
+@import '_base/_typography';
+@import '_components/_buttons';
+@import '_base/_about';
+@import '_layout/_footer';
+@import '_layout/_forms';
+@import '_layout/_header';
+@import '_layout/_banner';
+@import '_layout/_navigation';
+@import '_layout/_section';

@@ -1,4 +1,3 @@
-
 /*  Header Section Start */
 .header-wrapper {
     @extend %flex;
@@ -46,12 +45,16 @@
                             font-weight: 400;
                             display: flex;
                             color: $title-two;
-                            &:hover, 
-                            &.active
-                            {
+                            &:hover,
+                            &.active {
                                 padding-left: 10px;
                                 color: $base-color;
                             }
+                        }
+
+                        span {
+                            line-height: 27px !important;
+                            margin-left: 5px !important;
                         }
                     }
                     &::before {
@@ -78,7 +81,6 @@
                     }
                 }
             }
-            
         }
     }
 }
@@ -102,8 +104,6 @@
         -moz-animation-duration: 1s;
     }
 }
-
-
 
 .header-bar {
     width: 30px;
@@ -144,4 +144,9 @@
     -webkit-transform: rotate(-45deg) translate(3px, -9px);
     -ms-transform: rotate(-45deg) translate(3px, -9px);
     transform: rotate(-45deg) translate(3px, -9px);
+}
+
+.flag_span {
+    line-height: 27px !important;
+    margin-left: 5px !important;
 }

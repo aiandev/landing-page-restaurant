@@ -1,9 +1,12 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
 import {categories} from "src/data";
+import {namespaces} from "src/i18n/i18n.constants";
 import Category from "./Category/Category";
 import CategoryHeader from "./Category/CategoryHeader";
 
 function Menu() {
+    const {t} = useTranslation(namespaces.pages.menu);
     return (
         <section className="menu-section2" id="menu">
             <img className="shape1" src="assets/images/menu/menuleft2.png" alt="" />
@@ -13,7 +16,7 @@ function Menu() {
                     <div className="col-lg-8">
                         <div className="content">
                             <div className="section-header">
-                                <h6 className="sub-title wow fadeInUp">Explore our menus</h6>
+                                <h6 className="sub-title wow fadeInUp">{t("title")}</h6>
                             </div>
                         </div>
                     </div>

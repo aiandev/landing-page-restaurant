@@ -1,6 +1,9 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
+import {namespaces} from "src/i18n/i18n.constants";
 
 function AboutUs() {
+    const {t} = useTranslation(namespaces.pages.about);
     return (
         <section className="about-section" id="about">
             <div className="container">
@@ -8,21 +11,12 @@ function AboutUs() {
                     <div className="col-lg-6">
                         <div className="content">
                             <div className="section-header">
-                                <h6 className="sub-title extra-padding wow fadeInUp">ABOUT US</h6>
-                                <h2 className="title extra-padding wow fadeInUp">
-                                    Dedicated To Delight You
-                                </h2>
-                                <p>
-                                    {`Maestro food blends contemporary elegance and comfort with
-                                    innovative cuisine and excellent service. The original menu and
-                                    unique decor make Maestro food an ideal setting for business
-                                    meetings, romantic evenings, or a night out with friends.
-									`}
-                                </p>
-                                <p>
-                                    {` A meal at Maestro food is one you won't soon forget and value
-                                    you won’t believe.	`}
-                                </p>
+                                <h6 className="sub-title extra-padding wow fadeInUp">
+                                    {t("intro")}
+                                </h6>
+                                <h2 className="title extra-padding wow fadeInUp">{t("title")}</h2>
+                                <p>{t("description_1")}</p>
+                                <p>{t("description_2")}</p>
                             </div>
                             <img src="assets/images/sign.png" alt="" />
                         </div>

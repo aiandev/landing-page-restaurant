@@ -1,12 +1,16 @@
 export const namespaces = {
     pages: {
         hello: "pages.hello",
-        banner: "pages.banner"
+        banner: "pages.banner",
+        about: "pages.about",
+        menu: "pages.menu"
     },
-    common: "common"
+    common: "common",
+    header: "header",
+    footer: "footer"
 };
 
 export const languages = {
-    es: "es",
-    en: "en"
+    ro: "ro",
+    ru: "ru"
 };

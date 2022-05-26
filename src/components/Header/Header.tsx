@@ -1,10 +1,15 @@
 import React, {useEffect, useState} from "react";
+import {useTranslation} from "react-i18next";
 import {i18n} from "src/i18n/i18n";
+import {namespaces} from "src/i18n/i18n.constants";
+import Flag from "react-world-flags";
 
 const localLanguage = localStorage.getItem("lng");
 
 function Header() {
-    const [language, setlanguage] = useState(localLanguage ? localLanguage : "es");
+    const [language, setlanguage] = useState(localLanguage ? localLanguage : "ro");
+    const [headerScroll, setHeaderScroll] = useState(false);
+    const {t} = useTranslation(namespaces.header);
 
     const changeLanguage = (lang) => {
         setlanguage(lang);
@@ -15,8 +20,21 @@ function Header() {
         i18n.changeLanguage(language);
     }, [language]);
 
+    const changeBackground = () => {
+        if (window.scrollY >= 10) {
+            setHeaderScroll(true);
+        } else {
+            setHeaderScroll(false);
+        }
+    };
+
+    useEffect(() => {
+        changeBackground();
+        window.addEventListener("scroll", changeBackground);
+    });
+
     return (
-        <header className="header-section">
+        <header className={headerScroll ? "header-section header-active" : "header-section"}>
             <div className="container">
                 <div className="header-wrapper">
                     <div className="logo">
@@ -26,25 +44,31 @@ function Header() {
                     </div>
                     <ul className="menu">
                         <li className="active">
-                            <a href="#">Home</a>
+                            <a href="#">{t("home")}</a>
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#about">{t("about")}</a>
                         </li>
                         <li>
-                            <a href="#menu">Menu</a>
+                            <a href="#menu">{t("menu")}</a>
                         </li>
                         <li>
-                            <a href="#footer">Contact Us</a>
+                            <a href="#footer">{t("contact_us")}</a>
                         </li>
                         <li>
                             <a href="#">{language}</a>
                             <ul className="submenu">
                                 <li>
-                                    <a onClick={() => changeLanguage("en")}>English</a>
+                                    <a onClick={() => changeLanguage("ro")}>
+                                        <Flag code="ro" height="22" />
+                                        <span className="flag_span">Ro</span>
+                                    </a>
                                 </li>
                                 <li>
-                                    <a onClick={() => changeLanguage("es")}>Spanish</a>
+                                    <a onClick={() => changeLanguage("ru")}>
+                                        <Flag code="ru" height="22" />
+                                        <span className="flag_span">Ru</span>
+                                    </a>
                                 </li>
                             </ul>
                         </li>

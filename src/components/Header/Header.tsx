@@ -56,7 +56,7 @@ function Header() {
                             <a href="#footer">{t("contact_us")}</a>
                         </li>
                         <li>
-                            <a href="#">{language}</a>
+                            <a href="javascript:void(0)">{language}</a>
                             <ul className="submenu">
                                 <li>
                                     <a onClick={() => changeLanguage("ro")}>

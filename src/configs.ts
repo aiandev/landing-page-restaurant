@@ -4,16 +4,16 @@ export const configs = {
             {
                 name: "facebook",
                 icon: "fa-facebook-f",
-                url: "#"
+                url: "https://www.facebook.com/maestrofoodcafenea"
             },
             {
-                name: "instegram",
+                name: "instagram",
                 icon: "fa-instagram",
-                url: "#"
+                url: "https://www.instagram.com/_maestrofood"
             }
         ]
     },
-    address: "17 South Sherman Street Astoria, NY 11106",
-    phone: "+1 111 000 111",
+    address: "Mircea cel Batrin,39",
+    phone: "079880000",
     email: "info@maestro.md"
 };

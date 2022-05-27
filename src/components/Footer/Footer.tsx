@@ -57,7 +57,9 @@ function Footer() {
                                         <img src="assets/images/ii1.png" alt="" />
                                     </div>
                                     <p>{t("phone_number")}:</p>
-                                    <p>{configs.phone}</p>
+                                    <a href={`tel:${configs.phone}`}>
+                                        <p>{configs.phone}</p>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
@@ -65,6 +67,7 @@ function Footer() {
                                     <div className="icon">
                                         <img src="assets/images/ii2.png" alt="" />
                                     </div>
+                                    <p>{t("Address")}:</p>
                                     <p>{configs.address}</p>
                                 </div>
                             </div>

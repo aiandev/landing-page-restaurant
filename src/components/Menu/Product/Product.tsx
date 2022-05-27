@@ -14,7 +14,12 @@ const Product: FC<IProductProps> = ({product}) => {
             <div className="single-recipe mt-2">
                 <div className="top-area">
                     <div className="img">
-                        <img src="assets/images/menu/recipe1.png" alt="" />
+                        <img
+                            width={"152"}
+                            height={"152"}
+                            src={product.image}
+                            alt={product["name_" + i18n.language]}
+                        />
                     </div>
                     <a href="#" className="wishlist">
                         <i className="far fa-heart"></i>

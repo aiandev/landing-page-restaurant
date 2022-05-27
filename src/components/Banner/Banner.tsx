@@ -24,12 +24,12 @@ function Banner() {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="main-content">
-                            <h1 className="main-sub-title wow fadeInLeft" data-wow-delay=".2s">
+                            <h1 className="main-title wow fadeInLeft" data-wow-delay=".2s">
                                 {t("welcome")}
                             </h1>
-                            <h1 className="main-title wow fadeInRight" data-wow-delay=".2s">
+                            <h3 className="main-sub-title wow fadeInRight" data-wow-delay=".2s">
                                 {t("slogan")}
-                            </h1>
+                            </h3>
                             <p className="text">{t("quote")}</p>
                         </div>
                     </div>

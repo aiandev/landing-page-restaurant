@@ -1,5 +1,6 @@
 import React from "react";
 import {categories} from "src/data";
+import {i18n} from "src/i18n/i18n";
 
 function CategoryHeader() {
     return (
@@ -16,7 +17,7 @@ function CategoryHeader() {
                             aria-controls={`${category.id}-tone`}
                             aria-selected="true"
                         >
-                            {category.name}
+                            {category["name_" + i18n.language]}
                         </a>
                     </li>
                 );

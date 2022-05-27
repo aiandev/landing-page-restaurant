@@ -1,7 +1,10 @@
 import React from "react";
+import {useTranslation} from "react-i18next";
 import {configs} from "src/configs";
+import {namespaces} from "src/i18n/i18n.constants";
 
 function Footer() {
+    const {t} = useTranslation(namespaces.footer);
     return (
         <footer className="footer-section" id="footer">
             <img className="shape" src="assets/images/footer-shape.png" alt="" />
@@ -25,7 +28,7 @@ function Footer() {
                                 <img src="./assets/images/logo/logo.png" alt="logo" />
                             </div>
                             <div className="footer-social-links">
-                                <span className="label">Follow us :</span>
+                                <span className="label">{t("follow_us")} :</span>
                                 <ul>
                                     {configs.footer.social.map((social, index) => {
                                         return (
@@ -53,7 +56,7 @@ function Footer() {
                                     <div className="icon">
                                         <img src="assets/images/ii1.png" alt="" />
                                     </div>
-                                    <p>Phone Number:</p>
+                                    <p>{t("phone_number")}:</p>
                                     <p>{configs.phone}</p>
                                 </div>
                             </div>
@@ -70,7 +73,7 @@ function Footer() {
                                     <div className="icon">
                                         <img src="assets/images/ii3.png" alt="" />
                                     </div>
-                                    <p>Drop us a line:</p>
+                                    <p>{t("drop_us_line")}:</p>
                                     <a href={`mailto:${configs.email}`}>
                                         <p>{configs.email}</p>
                                     </a>
@@ -81,9 +84,7 @@ function Footer() {
                 </div>
                 <div className="row">
                     <div className="col-lg-12">
-                        <div className="copyright-text">
-                            Copyright © 2020.All Rights Reserved By Maestro food
-                        </div>
+                        <div className="copyright-text">{t("copyright")}</div>
                     </div>
                 </div>
             </div>

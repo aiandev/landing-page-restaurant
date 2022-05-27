@@ -11,12 +11,12 @@ const createI18n = (language: string): i18nInstance => {
             backend: {
                 loadPath: "./locales/{{lng}}/{{ns}}.json" // Specify where backend will find translation files.
             },
-            lng: localStorage.getItem("lng") || language || "es",
-            fallbackLng: localStorage.getItem("lng") || language || "es",
+            lng: localStorage.getItem("lng") || language || "ro",
+            fallbackLng: localStorage.getItem("lng") || language || "ro",
             ns: namespaces.common
         });
 
     return i18n;
 };
 
-export const i18n = createI18n(languages.es);
+export const i18n = createI18n(languages.ro);

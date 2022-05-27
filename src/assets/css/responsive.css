@@ -5,35 +5,32 @@
     .banner-section .img2 {
         width: 420px;
     }
-    .banner-section, 
-    .banner-section2 
-    {
+    .banner-section,
+    .banner-section2 {
         padding: 278px 0px 200px;
     }
     .menu-section .menu-secrion-innner {
         padding: 0px 130px;
     }
 
-    .menu-section .shape1{
+    .menu-section .shape1 {
         display: none;
     }
 
-    .footer-section .f-left, 
-    .footer-section .f-right 
-    {
+    .footer-section .f-left,
+    .footer-section .f-right {
         width: 300px;
     }
 
-    .banner-section .main-content .main-title, 
-    .banner-section2 .main-content .main-title 
-    {
+    .banner-section .main-content .main-title,
+    .banner-section2 .main-content .main-title {
         font-size: 90px;
         line-height: 100px;
     }
-    .banner-section2 .img1{
+    .banner-section2 .img1 {
         display: none;
     }
-    .banner-section2 .img2{
+    .banner-section2 .img2 {
         display: none;
     }
     .menu-section2 .shape1 {
@@ -42,37 +39,32 @@
     .menu-section2 .shape2 {
         right: 0px;
     }
-    
-    .menu-banner-section .info-box 
-    {
+
+    .menu-banner-section .info-box {
         left: 30px;
     }
-    .menu-banner-section .infoimage{
+    .menu-banner-section .infoimage {
         left: -40px;
     }
-
 }
 @media (max-width: 1366px) {
     .menu-section .menu-secrion-innner {
         padding: 0px 30px;
     }
-    .footer-section .f-left, 
+    .footer-section .f-left,
     .footer-section .f-right {
         display: none;
     }
 }
 
-
 @media (max-width: 1199px) {
     .banner-section .main-content .main-title,
-    .banner-section2 .main-content .main-title
-     {
+    .banner-section2 .main-content .main-title {
         font-size: 60px;
         line-height: 70px;
     }
-    .banner-section .main-content .main-sub-title, 
-    .banner-section2 .main-content .main-sub-title 
-    {
+    .banner-section .main-content .main-sub-title,
+    .banner-section2 .main-content .main-sub-title {
         font-size: 24px;
         line-height: 34px;
         margin-bottom: 21px;
@@ -89,23 +81,21 @@
     .menu-section .opening-time {
         padding: 30px 30px;
     }
-    .about-section .content  img{
+    .about-section .content img {
         max-width: 150px;
     }
     .menu-banner-section .info-box,
-    .menu-banner-section .infoimage
-    {
+    .menu-banner-section .infoimage {
         display: none;
     }
     .menu-banner-section {
         padding: 133px 0px 112px;
     }
     .menu-section2 .shape1,
-    .menu-section2 .shape2
-    {
+    .menu-section2 .shape2 {
         display: none;
     }
-    .testimonial-section .testimonial-slider{
+    .testimonial-section .testimonial-slider {
         padding: 30px;
     }
     .testimonial-section .testimonial-slider::before {
@@ -132,21 +122,20 @@
     .testimonial-section {
         padding: 0px 0px 130px;
     }
-    .testimonial-section .testimonial-slider .single-review .review{
+    .testimonial-section .testimonial-slider .single-review .review {
         font-size: 18px;
         line-height: 28px;
     }
-    .testimonial-section .testimonial-slider .single-review .name{
+    .testimonial-section .testimonial-slider .single-review .name {
         font-size: 18px;
     }
-    .testimonial-section .slider-wrapper .big{
+    .testimonial-section .slider-wrapper .big {
         display: none;
     }
-    .testimonial-section .slider-wrapper .small{
+    .testimonial-section .slider-wrapper .small {
         display: none;
     }
 }
-
 
 @media (min-width: 992px) {
     .header-wrapper .menu {
@@ -168,7 +157,7 @@
         position: relative;
         margin-right: 20px;
     }
-    .header-wrapper .menu li:last-child{
+    .header-wrapper .menu li:last-child {
         margin-right: 0px;
     }
 
@@ -200,6 +189,11 @@
         padding: 0 20px;
     }
 
+    .header-wrapper .menu li .submenu li a span {
+        line-height: 27px;
+        margin-left: 5px;
+    }
+
     .header-wrapper .menu li .submenu li a {
         text-transform: capitalize;
         font-weight: 600;
@@ -209,7 +203,8 @@
         color: #292929;
     }
 
-    .header-wrapper .menu li .submenu li a:hover, .header-wrapper .menu li .submenu li a.active {
+    .header-wrapper .menu li .submenu li a:hover,
+    .header-wrapper .menu li .submenu li a.active {
         padding-left: 10px;
         color: #4b9438;
     }
@@ -262,8 +257,6 @@
         display: block !important;
     }
 
-   
-
     .header-wrapper .menu > li > a::before {
         width: calc(100% - 10px);
         height: 2px;
@@ -282,7 +275,7 @@
         transform-origin: left;
     }
 
-    .header-wrapper .menu > li > a:hover::before, 
+    .header-wrapper .menu > li > a:hover::before,
     .header-wrapper .menu > li.active > a::before {
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
@@ -292,21 +285,20 @@
     .header-wrapper .menu > li.header-button a::before {
         display: none;
     }
-    .header-wrapper .menu li .custom-button::before{
+    .header-wrapper .menu li .custom-button::before {
         display: none;
     }
-    
-    .header-wrapper .menu li .custom-button{
+
+    .header-wrapper .menu li .custom-button {
         background: #fff;
         color: #4b9438;
         margin-left: 5px;
     }
-    .header-wrapper .menu li .custom-button:hover{
+    .header-wrapper .menu li .custom-button:hover {
         background-color: #4b9438;
-        color: #fff!important;
+        color: #fff !important;
     }
 }
-
 
 @media (max-width: 991px) and (min-width: 576px) {
     .header-wrapper .menu {
@@ -415,13 +407,11 @@
         background: #71b85f;
         border: none;
     }
-    .banner-section2 .main-content .hero-btn{
+    .banner-section2 .main-content .hero-btn {
         font-weight: 600;
     }
-    
 
-    .section-header .sub-title
-    {
+    .section-header .sub-title {
         font-size: 20px;
         line-height: 30px;
     }
@@ -430,28 +420,20 @@
         line-height: 44px;
     }
 
-
-    
-    .banner-section2 .main-content p{
+    .banner-section2 .main-content p {
         font-size: 18px;
         line-height: 28px;
     }
 
-   
-
-    
     html,
     body,
     p,
     a {
-
         font-size: 16px;
         line-height: 26px;
-
     }
     .banner-section .main-content .main-title,
-    .banner-section2 .main-content .main-title
-     {
+    .banner-section2 .main-content .main-title {
         font-size: 50px;
         line-height: 60px;
     }
@@ -462,21 +444,20 @@
     .about-section .img .bg-shape {
         top: 5%;
     }
-    .menu-section .opening-time{
+    .menu-section .opening-time {
         margin-top: 60px;
-        display: block!important;
+        display: block !important;
     }
-    .menu-section .opening-time  .button{
+    .menu-section .opening-time .button {
         margin-top: 50px;
         display: inline-block;
         align-items: unset;
         height: auto;
-        
     }
     .menu-section .opening-time {
         padding: 60px 60px;
     }
-    .statistics-section .stat-item .icon{
+    .statistics-section .stat-item .icon {
         margin-bottom: 30px;
     }
     .statistics-section {
@@ -485,13 +466,13 @@
     .service-box .content .title {
         width: 70%;
     }
-    .service-box{
+    .service-box {
         margin-bottom: 30px;
     }
     .team-section {
         padding: 70px 0px 90px;
     }
-    .event-section .main-content{
+    .event-section .main-content {
         text-align: center;
     }
     .event-section .main-content .book-btn {
@@ -509,14 +490,13 @@
         cursor: pointer;
         width: auto;
         height: auto;
-        -webkit-transition: all .3s linear;
-        transition: all .3s linear;
+        -webkit-transition: all 0.3s linear;
+        transition: all 0.3s linear;
         background: #4b9438;
         margin-bottom: 30px;
     }
-    .event-section .main-content .book-btn img{
+    .event-section .main-content .book-btn img {
         display: none;
-
     }
     .event-section .section-header {
         margin-bottom: 33px;
@@ -525,46 +505,44 @@
     .event-section .main-content {
         margin-top: 55px;
     }
-    .event-section::before{
+    .event-section::before {
         width: 100%;
     }
-    .event-section .section-footer .nav{
+    .event-section .section-footer .nav {
         text-align: center;
         display: block;
     }
-    .event-section .section-footer .nav .nav-item{
+    .event-section .section-footer .nav .nav-item {
         display: inline-block;
     }
-    .amenities-section .single-amenities{
+    .amenities-section .single-amenities {
         margin-bottom: 30px;
     }
-    .amenities-section{
+    .amenities-section {
         padding-bottom: 100px;
     }
-    .footer-section .info-box{
+    .footer-section .info-box {
         margin-bottom: 30px;
     }
     .footer-section .copyright-text {
         margin-top: 92px;
     }
     .banner-section .img2,
-    .banner-section .img1
-    {
+    .banner-section .img1 {
         display: none;
     }
-    .banner-section, 
-    .banner-section2 
-    {
+    .banner-section,
+    .banner-section2 {
         padding: 220px 0px 150px;
     }
-    .banner-section .main-content .hero-btn{
+    .banner-section .main-content .hero-btn {
         font-weight: 600;
         padding: 10px 30px 8px;
     }
-    .menu-section .opening-time{
+    .menu-section .opening-time {
         height: auto;
     }
-    .header-wrapper .menu li a.custom-button{
+    .header-wrapper .menu li a.custom-button {
         background: #fff;
         color: #4b9438;
         margin-left: 5px;
@@ -573,40 +551,39 @@
         margin-top: 10px;
         padding: 10px 30px 6px;
     }
-    .header-wrapper .menu li a.custom-button:hover{
+    .header-wrapper .menu li a.custom-button:hover {
         background-color: #4b9438;
-        color: #fff!important;
+        color: #fff !important;
     }
     .menu-section2 .menu-tab-area .tab-content .main-content .single-recipe {
         margin-bottom: 80px;
     }
-    .menu-section2 .button-top{
+    .menu-section2 .button-top {
         margin-top: 0px;
     }
     .book-table-section .book-table-box {
         padding: 60px 30px 60px;
     }
     .book-table-section .shape1,
-    .book-table-section .shape2{
+    .book-table-section .shape2 {
         display: none;
     }
     .book-table-section .book-table-box .number {
         font-size: 30px;
         line-height: 40px;
     }
-    .book-table-section .book-table-box .number img{
+    .book-table-section .book-table-box .number img {
         width: 40px;
     }
-    .book-table-section .book-table-box .opening-time{
+    .book-table-section .book-table-box .opening-time {
         display: block;
         text-align: center;
     }
-    .book-table-section .book-table-box .opening-time .left::before{
+    .book-table-section .book-table-box .opening-time .left::before {
         display: none;
     }
     .book-table-section .book-table-box .opening-time .left,
-    .book-table-section .book-table-box .opening-time .right
-     {
+    .book-table-section .book-table-box .opening-time .right {
         max-width: 100%;
         flex: 100%;
     }
@@ -615,50 +592,47 @@
         line-height: 40px;
         margin: 0px 10px;
     }
-    .book-table-section .book-table-box .title-area img{
+    .book-table-section .book-table-box .title-area img {
         width: 55px;
     }
-    .testimonial-section .testimonial-slider{
+    .testimonial-section .testimonial-slider {
         margin-top: 60px;
     }
     .menu-banner-section .main-comtent .left-area .title {
         font-size: 30px;
         line-height: 40px;
     }
-    .event-section .main-content .book-btn::before{
+    .event-section .main-content .book-btn::before {
         display: none;
     }
 }
 
-
 @media (max-width: 767px) {
-    .menu-section .menu-tab-area .shape-2{
+    .menu-section .menu-tab-area .shape-2 {
         display: none;
     }
-    .menu-banner-section .main-comtent{
+    .menu-banner-section .main-comtent {
         display: block;
     }
-    .menu-banner-section .main-comtent .right-area .custom-button{
+    .menu-banner-section .main-comtent .right-area .custom-button {
         margin-top: 26px;
     }
 }
 
 @media (max-width: 575px) {
-    .about-section .img .bg-shape{
+    .about-section .img .bg-shape {
         animation: none;
     }
     .banner-section .main-content .main-title,
-    .banner-section2 .main-content .main-title
-     {
+    .banner-section2 .main-content .main-title {
         font-size: 36px;
         line-height: 46px;
     }
     .menu-section .opening-time .time-list::before,
-    .menu-section .opening-time .time-list::after
-    {
+    .menu-section .opening-time .time-list::after {
         display: none;
     }
-    .menu-section .opening-time .time-list{
+    .menu-section .opening-time .time-list {
         padding: 0px;
     }
     .menu-section .opening-time .button {
@@ -667,59 +641,51 @@
     .menu-section .opening-time {
         padding: 38px 30px 60px;
     }
-    .menu-section .menu-tab-area .nav li a img, 
-    .menu-section2 .menu-tab-area .nav li a img 
-    {
+    .menu-section .menu-tab-area .nav li a img,
+    .menu-section2 .menu-tab-area .nav li a img {
         max-width: 40px;
     }
-    .menu-section .menu-tab-area .nav li, 
-    .menu-section2 .menu-tab-area .nav li 
-    {
+    .menu-section .menu-tab-area .nav li,
+    .menu-section2 .menu-tab-area .nav li {
         margin-right: 15px;
     }
     .menu-section .menu-tab-area .tab-content .main-content .table tr td .col-one .title,
     .menu-section .menu-tab-area .tab-content .main-content .table tr td .col-two .count,
-    .menu-section .menu-tab-area .tab-content .main-content .table tr td .col-three .price
-    {
+    .menu-section .menu-tab-area .tab-content .main-content .table tr td .col-three .price {
         font-size: 20px;
         line-height: 30px;
     }
     .event-section .section-footer .nav .nav-item {
         margin-right: 10px;
     }
-    .single-recipe .top-area{
+    .single-recipe .top-area {
         text-align: center;
     }
     .single-recipe .top-area .img {
         display: inline-block;
     }
-    .single-recipe .recipe-main-content{
+    .single-recipe .recipe-main-content {
         text-align: center;
     }
     .book-table-section .book-table-box .book-form .input-group .single-input.two,
-    .book-table-section .book-table-box .book-form .input-group .single-input.one
-     {
+    .book-table-section .book-table-box .book-form .input-group .single-input.one {
         width: 100%;
         margin-left: 0px;
-        
     }
     .book-table-section .book-table-box .book-form .input-group .single-input.two input,
-    .book-table-section .book-table-box .book-form .input-group .single-input.one input
-    {
+    .book-table-section .book-table-box .book-form .input-group .single-input.one input {
         border-radius: 50px;
     }
 }
 
 @media (max-width: 500px) {
-   
-
 }
 
 @media (max-width: 414px) {
-    .menu-section .menu-tab-area .tab-content .main-content .table-responsive{
+    .menu-section .menu-tab-area .tab-content .main-content .table-responsive {
         overflow: auto;
     }
-    .menu-section .menu-tab-area .tab-content .main-content .table{
+    .menu-section .menu-tab-area .tab-content .main-content .table {
         width: 430px;
     }
     .event-section .main-content .book-btn::before {
@@ -737,21 +703,20 @@
         line-height: 28px;
         margin-bottom: 18px;
     }
-    .menu-section .opening-time .time-list li:last-child{
+    .menu-section .opening-time .time-list li:last-child {
         margin-bottom: 0px;
     }
-
 }
 
 @media (max-width: 320px) {
-    .banner-section .main-content .main-title, .banner-section2 .main-content .main-title,
-    .banner-section2 .main-content .main-title, .banner-section2 .main-content .main-title
-    {
+    .banner-section .main-content .main-title,
+    .banner-section2 .main-content .main-title,
+    .banner-section2 .main-content .main-title,
+    .banner-section2 .main-content .main-title {
         font-size: 34px;
         line-height: 44px;
     }
 }
 
 @media (max-width: 390px) {
-   
 }

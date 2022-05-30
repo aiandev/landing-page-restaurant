@@ -15,5 +15,6 @@ export const configs = {
     },
     address: "Mircea cel Batrin,39",
     phone: "079880000",
-    email: "info@maestro-nut.com"
+    email: "info@maestro-nut.com",
+    version: Date.now()
 };

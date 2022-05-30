@@ -1,6 +1,7 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
-import {namespaces} from "src/i18n/i18n.constants";
+import {configs} from "src/configs";
+import {namespaces} from "../../i18n/i18n.constants";
 
 function Banner() {
     const {t} = useTranslation(namespaces.pages.banner);
@@ -10,16 +11,20 @@ function Banner() {
             <img
                 className="img1 wow fadeInLeft"
                 data-wow-delay=".7s"
-                src="assets/images/banner/aimg6.png"
-                alt=""
+                src={"assets/images/banner/aimg6.png?version=" + configs.version}
+                alt="banner1"
             />
             <img
-                className="img2 wow fadeInRight"
-                data-wow-delay=".7s"
-                src="assets/images/banner/aimg4.png"
-                alt=""
+                className="img2 fadeInRight"
+                data-wow-delay=".1s"
+                src={"assets/images/banner/aimg4.png?version=" + configs.version}
+                alt="banner2"
             />
-            <img className="img3" src="assets/images/banner/aimg5.png" alt="" />
+            <img
+                className="img3"
+                src={"assets/images/banner/aimg5.png?version=" + configs.version}
+                alt="banner3"
+            />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7">

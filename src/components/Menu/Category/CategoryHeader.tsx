@@ -1,6 +1,6 @@
 import React from "react";
-import {categories} from "src/data";
-import {i18n} from "src/i18n/i18n";
+import {categories} from "../../../data";
+import {i18n} from "../../../i18n/i18n";
 
 function CategoryHeader() {
     return (

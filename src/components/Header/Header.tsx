@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
-import {i18n} from "src/i18n/i18n";
-import {namespaces} from "src/i18n/i18n.constants";
+import {configs} from "src/configs";
+import {i18n} from "../../i18n/i18n";
+import {namespaces} from "../../i18n/i18n.constants";
 
 const localLanguage = localStorage.getItem("lng");
 
@@ -38,12 +39,15 @@ function Header() {
                 <div className="header-wrapper">
                     <div className="logo">
                         <a href="index.html">
-                            <img src="./assets/images/logo/logo.png" alt="logo" />
+                            <img
+                                src={"./assets/images/logo/logo.png?version=" + configs.version}
+                                alt="logo"
+                            />
                         </a>
                     </div>
                     <ul className="menu">
                         <li className="active">
-                            <a href="#">{t("home")}</a>
+                            <a href="/#">{t("home")}</a>
                         </li>
                         <li>
                             <a href="#about">{t("about")}</a>
@@ -54,8 +58,8 @@ function Header() {
                         <li>
                             <a href="#footer">{t("contact_us")}</a>
                         </li>
-                        <li>
-                            <a href="#" onClick={(e) => e.preventDefault()}>
+                        <li className="d-md-none">
+                            <a href="/#" onClick={(e) => e.preventDefault()}>
                                 {language}
                             </a>
                             <ul className="submenu">
@@ -79,7 +83,25 @@ function Header() {
                                 </li>
                             </ul>
                         </li>
+                        <li className="d-lg-none">
+                            <a onClick={() => changeLanguage("ro")}>
+                                <img
+                                    height="22"
+                                    src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3e%3cpath fill='%23002B7F' d='M0 0h1v2H0z'/%3e%3cpath fill='%23FCD116' d='M1 0h1v2H1z'/%3e%3cpath fill='%23CE1126' d='M2 0h1v2H2z'/%3e%3c/svg%3e"
+                                />
+                                {"Ro"}
+                            </a>
+
+                            <a onClick={() => changeLanguage("ru")}>
+                                <img
+                                    height="22"
+                                    src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9 6'%3e%3cpath fill='%23fff' d='M0 0h9v3H0z'/%3e%3cpath fill='%23d52b1e' d='M0 3h9v3H0z'/%3e%3cpath fill='%230039a6' d='M0 2h9v2H0z'/%3e%3c/svg%3e"
+                                />
+                                {"Ru"}
+                            </a>
+                        </li>
                     </ul>
+
                     <div className="header-bar d-lg-none">
                         <span></span>
                         <span></span>

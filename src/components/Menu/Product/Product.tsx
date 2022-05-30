@@ -1,14 +1,16 @@
 import React, {FC} from "react";
 import {useTranslation} from "react-i18next";
-import {IProduct} from "src/data";
-import {i18n} from "src/i18n/i18n";
-import {namespaces} from "src/i18n/i18n.constants";
+import {configs} from "src/configs";
+import {IProduct} from "../../../data";
+import {i18n} from "../../../i18n/i18n";
+import {namespaces} from "../../../i18n/i18n.constants";
 interface IProductProps {
     product: IProduct;
 }
 
 const Product: FC<IProductProps> = ({product}) => {
     const {t} = useTranslation(namespaces.pages.menu);
+
     return (
         <div className="col-md-4 col-sm-6 ">
             <div className="single-recipe mt-2">
@@ -17,11 +19,11 @@ const Product: FC<IProductProps> = ({product}) => {
                         <img
                             width={"152"}
                             height={"152"}
-                            src={product.image}
+                            src={product.image + "?version=" + configs.version}
                             alt={product["name_" + i18n.language]}
                         />
                     </div>
-                    <a href="#" className="wishlist">
+                    <a href="/#" className="wishlist">
                         <i className="far fa-heart"></i>
                     </a>
                 </div>

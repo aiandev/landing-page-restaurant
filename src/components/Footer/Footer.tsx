@@ -1,7 +1,7 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
-import {configs} from "src/configs";
-import {namespaces} from "src/i18n/i18n.constants";
+import {configs} from "../../configs";
+import {namespaces} from "../../i18n/i18n.constants";
 
 function Footer() {
     const {t} = useTranslation(namespaces.footer);
@@ -11,13 +11,13 @@ function Footer() {
             <img
                 className="f-left wow fadeInLeft"
                 data-wow-delay=".5s"
-                src="assets/images/f-left.png"
+                src="assets/images/f-left.png?version=1"
                 alt=""
             />
             <img
                 className="f-right wow fadeInRight"
                 data-wow-delay=".5s"
-                src="assets/images/f-right.png"
+                src="assets/images/f-right.png?version=1"
                 alt=""
             />
             <div className="container">
@@ -25,7 +25,7 @@ function Footer() {
                     <div className="col-md-8">
                         <div className="top-area">
                             <div className="logo">
-                                <img src="./assets/images/logo/logo.png" alt="logo" />
+                                <img src="./assets/images/logo/logo.png?version=1" alt="logo" />
                             </div>
                             <div className="footer-social-links">
                                 <span className="label">{t("follow_us")} :</span>

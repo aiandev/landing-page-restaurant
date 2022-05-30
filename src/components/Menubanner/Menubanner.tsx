@@ -22,7 +22,7 @@ function Menubanner() {
                                 </h3>
                             </div>
                             <div className="right-area">
-                                <a href="#" className="custom-button wow fadeInUp">
+                                <a href="/#" className="custom-button wow fadeInUp">
                                     View More{" "}
                                 </a>
                             </div>

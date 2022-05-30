@@ -61,7 +61,7 @@ function Testimonial() {
                         <div className="section-header">
                             <h6 className="sub-title wow fadeInUp">Testimonials</h6>
                             <h2 className="title wow fadeInUp">What Our Clients Say</h2>
-                            <a href="#" className="custom-button wow fadeInUp">
+                            <a href="/#" className="custom-button wow fadeInUp">
                                 Leave a review
                                 <img src="assets/images/testimonial/arrow-icon.png" alt="" />
                             </a>

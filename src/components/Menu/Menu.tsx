@@ -1,7 +1,7 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
-import {categories} from "src/data";
-import {namespaces} from "src/i18n/i18n.constants";
+import {categories} from "../../data";
+import {namespaces} from "../../i18n/i18n.constants";
 import Category from "./Category/Category";
 import CategoryHeader from "./Category/CategoryHeader";
 

@@ -1,6 +1,6 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
-import {namespaces} from "src/i18n/i18n.constants";
+import {namespaces} from "../../i18n/i18n.constants";
 
 function AboutUs() {
     const {t} = useTranslation(namespaces.pages.about);

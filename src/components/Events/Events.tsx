@@ -65,7 +65,7 @@ function Events() {
                     </div>
                     <div className="col-lg-8">
                         <div className="main-content">
-                            <a href="#" className="book-btn">
+                            <a href="/#" className="book-btn">
                                 Book Now <img src="assets/images/event/icon.png" alt="" />
                             </a>
                             <div className="tab-content">

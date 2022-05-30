@@ -1,6 +1,6 @@
 import React, {FC} from "react";
-import {ICategory} from "src/data";
-import {i18n} from "src/i18n/i18n";
+import {ICategory} from "../../../data";
+import {i18n} from "../../../i18n/i18n";
 import Product from "../Product/Product";
 interface ICategoryProps {
     category: ICategory;

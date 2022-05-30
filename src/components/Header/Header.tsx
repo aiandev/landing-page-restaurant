@@ -2,7 +2,6 @@ import React, {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 import {i18n} from "src/i18n/i18n";
 import {namespaces} from "src/i18n/i18n.constants";
-import Flag from "react-world-flags";
 
 const localLanguage = localStorage.getItem("lng");
 
@@ -62,13 +61,19 @@ function Header() {
                             <ul className="submenu">
                                 <li>
                                     <a onClick={() => changeLanguage("ro")}>
-                                        <Flag code="ro" height="22" />
+                                        <img
+                                            height="22"
+                                            src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3e%3cpath fill='%23002B7F' d='M0 0h1v2H0z'/%3e%3cpath fill='%23FCD116' d='M1 0h1v2H1z'/%3e%3cpath fill='%23CE1126' d='M2 0h1v2H2z'/%3e%3c/svg%3e"
+                                        />
                                         <span className="flag_span">Ro</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a onClick={() => changeLanguage("ru")}>
-                                        <Flag code="ru" height="22" />
+                                        <img
+                                            height="22"
+                                            src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9 6'%3e%3cpath fill='%23fff' d='M0 0h9v3H0z'/%3e%3cpath fill='%23d52b1e' d='M0 3h9v3H0z'/%3e%3cpath fill='%230039a6' d='M0 2h9v2H0z'/%3e%3c/svg%3e"
+                                        />
                                         <span className="flag_span">Ru</span>
                                     </a>
                                 </li>

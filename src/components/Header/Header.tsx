@@ -58,7 +58,7 @@ function Header() {
                         <li>
                             <a href="#footer">{t("contact_us")}</a>
                         </li>
-                        <li className="d-md-none">
+                        <li className="d-none d-lg-block">
                             <a href="/#" onClick={(e) => e.preventDefault()}>
                                 {language}
                             </a>

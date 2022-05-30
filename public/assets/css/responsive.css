@@ -1,4 +1,4 @@
-@media (max-width: 1400px) {
+@media (max-width: 1300px) {
     .banner-section .img1 {
         width: 420px;
     }
@@ -47,7 +47,7 @@
         left: -40px;
     }
 }
-@media (max-width: 1366px) {
+@media (max-width: 1266px) {
     .menu-section .menu-secrion-innner {
         padding: 0px 30px;
     }
@@ -57,7 +57,7 @@
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1000px) {
     .banner-section .main-content .main-title,
     .banner-section2 .main-content .main-title {
         font-size: 60px;

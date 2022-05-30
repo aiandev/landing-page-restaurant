@@ -17,6 +17,7 @@ function Banner() {
             <img
                 className="img2 fadeInRight"
                 data-wow-delay=".1s"
+                width={"900px"}
                 src={"assets/images/banner/aimg4.png?version=" + configs.version}
                 alt="banner2"
             />

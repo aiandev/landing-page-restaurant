@@ -809,7 +809,7 @@ input[type="submit"] {
     position: fixed;
     border-radius: 5px;
     transform: translateY(150px);
-    background: #71b85f;
+    background: #6db01c;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
@@ -993,7 +993,7 @@ input[type="submit"] {
     }
 }
 .custom-button {
-    background: #71b85f;
+    background: #6db01c;
     box-shadow: 0.872px 9.962px 20px 0px rgba(0, 0, 0, 0.1);
     padding: 12px 30px;
     font-weight: 600;
@@ -1009,7 +1009,7 @@ input[type="submit"] {
     transition: all ease 0.3s;
 }
 .custom-button:hover {
-    color: #71b85f !important;
+    color: #6db01c !important;
     background: #fff;
     box-shadow: 1px 10px 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -1021,7 +1021,7 @@ input[type="submit"] {
     z-index: 9999;
     width: 100%;
     height: 100%;
-    background: #71b85f;
+    background: #6db01c;
     overflow: hidden;
 }
 .preloader .preloader-inner {
@@ -1287,7 +1287,7 @@ input[type="submit"] {
 .footer-section {
     padding: 130px 0px 25px;
     position: relative;
-    background: #71b85f;
+    background: #6db01c;
     overflow: hidden;
 }
 .footer-section .shape {
@@ -1350,8 +1350,8 @@ input[type="submit"] {
 }
 .footer-section .footer-social-links ul li a:hover {
     background: #fff;
-    color: #71b85f;
-    border: 1px solid #71b85f;
+    color: #6db01c;
+    border: 1px solid #6db01c;
 }
 .footer-section .newslater-wrapper {
     text-align: center;
@@ -1382,7 +1382,7 @@ input[type="submit"] {
     border-radius: 50px;
     right: 0px;
     top: 0px;
-    color: #71b85f;
+    color: #6db01c;
     border: 0px;
     padding: 0px 30px;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
@@ -1468,7 +1468,7 @@ input[type="submit"] {
     .header-wrapper .menu li .submenu li a:hover,
     .header-wrapper .menu li .submenu li a.active {
         padding-left: 10px;
-        color: #71b85f;
+        color: #6db01c;
     }
     .header-wrapper .menu li .submenu::before {
         position: absolute;
@@ -1503,7 +1503,7 @@ input[type="submit"] {
 }
 .header-section.header-active {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background: #71b85f;
+    background: #6db01c;
     border: none;
     animation-name: fadeInDown;
     -webkit-animation-name: fadeInDown;
@@ -1560,7 +1560,7 @@ input[type="submit"] {
     padding: 230px 0px 440px;
     position: relative;
     overflow: hidden;
-    background: #71b85f;
+    background: #6db01c;
 }
 .banner-section .img1 {
     position: absolute;
@@ -1614,7 +1614,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 .banner-section .main-content .hero-btn:hover {
-    color: #71b85f !important;
+    color: #6db01c !important;
     background: #fff;
 }
 
@@ -1622,7 +1622,7 @@ input[type="submit"] {
     padding: 363px 0px 300px;
     position: relative;
     overflow: hidden;
-    background: #71b85f;
+    background: #6db01c;
 }
 .banner-section2 .img1 {
     position: absolute;
@@ -1682,7 +1682,7 @@ input[type="submit"] {
     cursor: pointer;
 }
 .banner-section2 .main-content .hero-btn:hover {
-    color: #71b85f !important;
+    color: #6db01c !important;
     background: #fff;
 }
 
@@ -1761,10 +1761,10 @@ input[type="submit"] {
     display: inline-block;
 }
 .menu-section .menu-tab-area .nav li a.active {
-    color: #71b85f;
+    color: #6db01c;
 }
 .menu-section .menu-tab-area .nav li a.active img {
-    fill: #71b85f;
+    fill: #6db01c;
 }
 .menu-section .menu-tab-area .tab-content {
     padding-top: 19px;
@@ -1807,14 +1807,14 @@ input[type="submit"] {
     margin-top: 44px;
 }
 .menu-section .button-top .custom-button {
-    background: #4b9438;
+    background: #6db01c;
 }
 .menu-section .button-top .custom-button:hover {
-    color: #4b9438 !important;
+    color: #6db01c !important;
     background: #fff;
 }
 .menu-section .opening-time {
-    background-color: #71b85f;
+    background-color: #6db01c;
     height: 100%;
     text-align: center;
     padding: 30px 50px;
@@ -1860,7 +1860,7 @@ input[type="submit"] {
     box-shadow: 0.872px 9.962px 20px 0px rgba(0, 0, 0, 0.3);
     padding: 12px 30px;
     font-weight: 600;
-    color: #4b9438;
+    color: #6db01c;
     border-radius: 50px;
     display: inline-block;
     margin-bottom: 0px;
@@ -1873,7 +1873,7 @@ input[type="submit"] {
 }
 .menu-section .opening-time .bookbtn:hover {
     color: #fff !important;
-    background: #4b9438;
+    background: #6db01c;
 }
 
 .menu-section2 {
@@ -1922,10 +1922,10 @@ input[type="submit"] {
     display: inline-block;
 }
 .menu-section2 .menu-tab-area .nav li a.active {
-    color: #71b85f;
+    color: #6db01c;
 }
 .menu-section2 .menu-tab-area .nav li a.active img {
-    fill: #71b85f;
+    fill: #6db01c;
 }
 .menu-section2 .menu-tab-area .tab-content {
     padding-top: 19px;
@@ -1940,7 +1940,7 @@ input[type="submit"] {
     margin-top: 31px;
 }
 .menu-section2 .button-top .newbtn {
-    color: #4b9438;
+    color: #6db01c;
 }
 
 .single-recipe {
@@ -1968,7 +1968,7 @@ input[type="submit"] {
     display: block;
 }
 .single-recipe .recipe-main-content .price {
-    color: #4b9438;
+    color: #6db01c;
     background: #e5efd9;
     display: inline-block;
     padding: 4px 20px 0px;
@@ -1985,10 +1985,10 @@ input[type="submit"] {
 .single-recipe .recipe-main-content .custom-button {
     padding: 7px 20px;
     box-shadow: none;
-    background: #4b9438;
+    background: #6db01c;
 }
 .single-recipe .recipe-main-content .custom-button:hover {
-    background: #71b85f;
+    background: #6db01c;
     color: #fff !important;
 }
 
@@ -2011,7 +2011,7 @@ input[type="submit"] {
     margin-bottom: 52px;
 }
 .book-table-section .book-table-box {
-    background: #71b85f;
+    background: #6db01c;
     padding: 60px 100px 60px;
 }
 .book-table-section .book-table-box .number {
@@ -2114,10 +2114,10 @@ input[type="submit"] {
     line-height: 30px;
     margin-top: 30px;
     background: #fff;
-    color: #71b85f;
+    color: #6db01c;
 }
 .book-table-section .book-table-box .book-form .custom-button:hover {
-    background: #4b9438;
+    background: #6db01c;
     color: #fff !important;
 }
 .book-table-section .book-table-box .book-form .input-group {
@@ -2169,7 +2169,7 @@ input[type="submit"] {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
-    background: #4b9438;
+    background: #6db01c;
     padding: 12px 30px 10px;
 }
 .testimonial-section .section-header .custom-button:hover {
@@ -2202,7 +2202,7 @@ input[type="submit"] {
     content: "";
     width: 687px;
     height: 687px;
-    background: #71b85f;
+    background: #6db01c;
     top: 50%;
     left: -70px;
     transform: translateY(-50%);
@@ -2259,7 +2259,7 @@ input[type="submit"] {
     height: 40px;
     line-height: 40px;
     background: #d3e4e4;
-    color: #71b85f;
+    color: #6db01c;
     font-size: 0px;
     transition: all ease 0.3s;
 }
@@ -2310,7 +2310,7 @@ input[type="submit"] {
 /* Menubanner Section Starts Here*/
 .menu-banner-section {
     padding: 205px 0px 182px;
-    background-color: #71b85f;
+    background-color: #6db01c;
     background-image: url(../images/food-pattern.png);
     background-position: center;
     position: relative;
@@ -2319,7 +2319,7 @@ input[type="submit"] {
 .menu-banner-section .info-box {
     font-size: 36px;
     line-height: 46px;
-    color: #4b9438;
+    color: #6db01c;
     background: #f4ecef;
     width: 370px;
     height: 370px;
@@ -2365,7 +2365,7 @@ input[type="submit"] {
 }
 .menu-banner-section .main-comtent .right-area .custom-button {
     background: #fff;
-    color: #71b85f;
+    color: #6db01c;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -2394,7 +2394,7 @@ input[type="submit"] {
     transform: translate(-50%, -50%);
     width: 125px;
     height: 125px;
-    background: #4b9438;
+    background: #6db01c;
     text-align: center;
     border-radius: 50%;
     padding-top: 45px;
@@ -2466,7 +2466,7 @@ input[type="submit"] {
     color: #fff;
     padding: 10px 30px;
     margin-bottom: 0px;
-    background: #4b9438;
+    background: #6db01c;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 .service-box .content .text {
@@ -2475,7 +2475,7 @@ input[type="submit"] {
 .service-box .content a {
     margin-top: 28px;
     display: block;
-    color: #71b85f;
+    color: #6db01c;
 }
 .service-box .content a img {
     margin-left: 7px;
@@ -2508,7 +2508,7 @@ input[type="submit"] {
 .team-member .img .shape {
     position: absolute;
     display: inline-block;
-    background: #71b85f;
+    background: #6db01c;
     width: 220px;
     height: 220px;
     bottom: 0px;
@@ -2580,7 +2580,7 @@ input[type="submit"] {
     border-radius: 50%;
 }
 .event-section .section-footer .nav .nav-item .nav-link.active .icon {
-    border: 1px solid #71b85f;
+    border: 1px solid #6db01c;
 }
 .event-section .section-footer .nav .nav-item:last-child {
     margin-right: 0px;
@@ -2593,7 +2593,7 @@ input[type="submit"] {
     top: 50%;
     z-index: 4;
     left: -150px;
-    color: #4b9438;
+    color: #6db01c;
 }
 .event-section .main-content .book-btn::before {
     position: absolute;
@@ -2638,7 +2638,7 @@ input[type="submit"] {
     font-weight: 600;
 }
 .amenities-section .single-amenities:hover {
-    border: 1px solid #71b85f;
+    border: 1px solid #6db01c;
     transform: translateY(-5px);
 }
 

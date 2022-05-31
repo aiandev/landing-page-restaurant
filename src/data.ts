@@ -351,14 +351,6 @@ export const categories: ICategory[] = [
                 desc_ru: "",
                 price: "20",
                 image: "assets/images/placeholder-logo.png?version=" + configs.version
-            },
-            {
-                name_ro: "Coleslow dulce/sarat",
-                desc_ro: "Salata din varza cu sos",
-                name_ru: "Коулслоу",
-                desc_ru: "",
-                price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
             }
         ]
     },

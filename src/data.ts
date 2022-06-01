@@ -27,7 +27,7 @@ export const categories: ICategory[] = [
                 name_ru: "Hot wings bucket",
                 desc_ru: "20 крылышек",
                 price: "140",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/hot wings bucket.png?version=" + configs.version
             },
             {
                 name_ro: "Bucket for two",
@@ -35,7 +35,7 @@ export const categories: ICategory[] = [
                 name_ru: "Bucket for two",
                 desc_ru: "2 ножки, 6 филе + напиток и картофель фри",
                 price: "130",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/family buc.png?version=" + configs.version
             },
             {
                 name_ro: "Share Bucket",
@@ -43,7 +43,7 @@ export const categories: ICategory[] = [
                 name_ru: "Share Bucket",
                 desc_ru: "9 филе, 9 крылышек",
                 price: "120",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/family buc.png?version=" + configs.version
             },
             {
                 name_ro: "Family bucket",
@@ -51,7 +51,7 @@ export const categories: ICategory[] = [
                 name_ru: "Family bucket",
                 desc_ru: "4 ножки, 4 филе + напиток и картофель фри",
                 price: "200",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/family buc.png?version=" + configs.version
             }
         ]
     },
@@ -66,7 +66,7 @@ export const categories: ICategory[] = [
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
                 price: "55/72",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Aripioare.png?version=" + configs.version
             },
             {
                 name_ro: "Crispy fileu",
@@ -74,7 +74,7 @@ export const categories: ICategory[] = [
                 name_ru: "Crispy филе",
                 desc_ru: "По 4 или 7 шт + соус",
                 price: "53/69",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Crispy fileu.png?version=" + configs.version
             },
             {
                 name_ro: "Crispy fileu meniu",
@@ -82,7 +82,7 @@ export const categories: ICategory[] = [
                 name_ru: "Crispy филе меню",
                 desc_ru: "4 или 7 шт хрустящего филе с напитком на выбор, картофелем фри и соусом",
                 price: "77/85",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Crispy fileu meniu.png?version=" + configs.version
             },
             {
                 name_ro: "Meniu aripioare",
@@ -90,7 +90,7 @@ export const categories: ICategory[] = [
                 name_ru: "Меню крылышки",
                 desc_ru: "5 или 8 крылышек с напитком на выбор и картофелем фри",
                 price: "75/95",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Meniu aripioare.png?version=" + configs.version
             },
             {
                 name_ro: "Meniu gambe",
@@ -98,7 +98,7 @@ export const categories: ICategory[] = [
                 name_ru: "Меню ножки",
                 desc_ru: "2 ножки с напитком на выбор и картофелем фри",
                 price: "60",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Meniu gambe.png?version=" + configs.version
             },
             {
                 name_ro: "Gambe",
@@ -106,7 +106,7 @@ export const categories: ICategory[] = [
                 name_ru: "Ножки",
                 desc_ru: "1, 2 или 3 ножки",
                 price: "20/35/50",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Gambe.png?version=" + configs.version
             }
         ]
     },
@@ -121,7 +121,7 @@ export const categories: ICategory[] = [
                 name_ru: "Врап с филе",
                 desc_ru: "Врап с филе",
                 price: "50",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/wrap.png?version=" + configs.version
             },
             {
                 name_ro: "Wrap cu falafel",
@@ -129,7 +129,7 @@ export const categories: ICategory[] = [
                 name_ru: "Врап с фалафелем",
                 desc_ru: "Врап с фалафелем",
                 price: "50",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Wrap cu falafel.png?version=" + configs.version
             },
             {
                 name_ro: "Wrap cu fileu meniu mediu /hot",
@@ -137,7 +137,7 @@ export const categories: ICategory[] = [
                 name_ru: "Врап с филе меню среднее",
                 desc_ru: "острое/не острое",
                 price: "70",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Wrap cu fileu meniu mediu hot.png?version=" + configs.version
             },
             {
                 name_ro: "Wrap cu fileiu meniu mare /hot",
@@ -145,7 +145,7 @@ export const categories: ICategory[] = [
                 name_ru: "Врап с филе меню большое",
                 desc_ru: "острое / не острое",
                 price: "75",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Wrap cu fileu meniu mare hot.png?version=" + configs.version
             },
             {
                 name_ro: "Wrap cu falafel meniu mediu /hot",
@@ -153,7 +153,7 @@ export const categories: ICategory[] = [
                 name_ru: "Врап с фалафелем меню среднее",
                 desc_ru: "Врап, картофель фри и напиток",
                 price: "70",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Wrap cu falafel meniu mediu hot.png?version=" + configs.version
             },
             {
                 name_ro: "Wrap cu falafel meniu mare/hot",
@@ -161,7 +161,7 @@ export const categories: ICategory[] = [
                 name_ru: "Врап с фалафелем меню большое",
                 desc_ru: "Врап, картофель фри и напиток",
                 price: "75",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Wrap cu falafel meniu mare hot.png?version=" + configs.version
             },
             {
                 name_ro: "Fajita",
@@ -169,7 +169,7 @@ export const categories: ICategory[] = [
                 name_ru: "Фахита",
                 desc_ru: "",
                 price: "85",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Fajita.png?version=" + configs.version
             }
         ]
     },
@@ -184,7 +184,7 @@ export const categories: ICategory[] = [
                 name_ru: "Бургер",
                 desc_ru: "острый/ не острый",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Burger hot.png?version=" + configs.version
             },
             {
                 name_ro: "Double burger/hot",
@@ -192,7 +192,7 @@ export const categories: ICategory[] = [
                 name_ru: "Двойной бургер",
                 desc_ru: "острый/ не острый",
                 price: "35",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Double burger hot.png?version=" + configs.version
             },
             {
                 name_ro: "Crispy burger",
@@ -200,7 +200,7 @@ export const categories: ICategory[] = [
                 name_ru: "Бургер Crispy",
                 desc_ru: "",
                 price: "40",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Crispy burger.png?version=" + configs.version
             },
             {
                 name_ro: "Burger cu vita",
@@ -208,7 +208,7 @@ export const categories: ICategory[] = [
                 name_ru: "Бургер с говядиной",
                 desc_ru: "",
                 price: "65",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Burger cu vita.png?version=" + configs.version
             },
             {
                 name_ro: "Combo burger meniu",
@@ -216,7 +216,7 @@ export const categories: ICategory[] = [
                 name_ru: "Бургер меню комбо",
                 desc_ru: "",
                 price: "55",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Combo burger meniu.png?version=" + configs.version
             },
             {
                 name_ro: "Combo burger meniu mare/hot",
@@ -224,7 +224,7 @@ export const categories: ICategory[] = [
                 name_ru: "Бургер меню комбо большое",
                 desc_ru: "",
                 price: "66",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Combo burger meniu mare hot.png?version=" + configs.version
             },
             {
                 name_ro: "Dublu burger meniu mediu/hot",
@@ -232,7 +232,7 @@ export const categories: ICategory[] = [
                 name_ru: "Двойной бургер меню среднее",
                 desc_ru: "",
                 price: "57",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/dubluBurger.png?version=" + configs.version
             },
             {
                 name_ro: "Dublu burger meniu mare/hot",
@@ -240,7 +240,7 @@ export const categories: ICategory[] = [
                 name_ru: "Двойной бургер меню большое",
                 desc_ru: "",
                 price: "62",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/dubluBurgerMenu.png?version=" + configs.version
             },
             {
                 name_ro: "Double crispy burger meniu mediu/hot",
@@ -248,7 +248,7 @@ export const categories: ICategory[] = [
                 name_ru: "Двойной бургер Crispy меню среднее",
                 desc_ru: "",
                 price: "63",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Double crispy burger meniu mediuhot.png?version=" + configs.version
             },
             {
                 name_ro: "Double crispy burger meniu mare/hot",
@@ -256,7 +256,7 @@ export const categories: ICategory[] = [
                 name_ru: "Двойной бургер Crispy меню большое",
                 desc_ru: "",
                 price: "68",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Double crispy burger meniu marehot.png?version=" + configs.version
             }
         ]
     },
@@ -271,7 +271,7 @@ export const categories: ICategory[] = [
                 name_ru: "Хумус 250гр",
                 desc_ru: "Восточная закуска из нутового пюре",
                 price: "35",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/humus.png?version=" + configs.version
             },
             {
                 name_ro: "Babaganus",
@@ -279,7 +279,7 @@ export const categories: ICategory[] = [
                 name_ru: "Бабагануш",
                 desc_ru: "Закуска из баклажанной икры",
                 price: "45",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/babaganus.png?version=" + configs.version
             },
             {
                 name_ro: "Inele de ceapa 120g",
@@ -287,7 +287,7 @@ export const categories: ICategory[] = [
                 name_ru: "Луковые кольца 120gr",
                 desc_ru: "Закуска  ",
                 price: "35",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/inele.png?version=" + configs.version
             },
             {
                 name_ro: "Falafel 6buc",
@@ -295,7 +295,7 @@ export const categories: ICategory[] = [
                 name_ru: "Фалафель 6шт",
                 desc_ru: "",
                 price: "37",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/falafel.png?version=" + configs.version
             },
             {
                 name_ro: "Cartofi 110/200g",
@@ -303,7 +303,7 @@ export const categories: ICategory[] = [
                 name_ru: "Картофель фри 110/200гр",
                 desc_ru: "",
                 price: "23/25",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/cartofi.png?version=" + configs.version
             },
             {
                 name_ro: "Orez 200g",
@@ -311,7 +311,7 @@ export const categories: ICategory[] = [
                 name_ru: "Рис 200гр",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/orez.png?version=" + configs.version
             },
             {
                 name_ro: "Lavas",
@@ -334,7 +334,7 @@ export const categories: ICategory[] = [
                 name_ru: "Салат Греческий",
                 desc_ru: "",
                 price: "50",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Salata din legume cu feta.png?version=" + configs.version
             },
             {
                 name_ro: "Salata Cezar",
@@ -342,7 +342,7 @@ export const categories: ICategory[] = [
                 name_ru: "Салат Цезарь",
                 desc_ru: "",
                 price: "55",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Salata din legume cu pui.png?version=" + configs.version
             },
             {
                 name_ro: "Coleslow dulce/sarat",
@@ -350,7 +350,7 @@ export const categories: ICategory[] = [
                 name_ru: "Коулслоу",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/coleslow.png?version=" + configs.version
             },
             {
                 name_ro: "Coleslow dulce/sarat",
@@ -358,7 +358,7 @@ export const categories: ICategory[] = [
                 name_ru: "Коулслоу",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Salata din varza cu sos.png?version=" + configs.version
             }
         ]
     },
@@ -373,7 +373,7 @@ export const categories: ICategory[] = [
                 name_ru: "Детское меню",
                 desc_ru: "2 филе, картофель фри, сок, соус, игрушка",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Meniu pentru copii.png?version=" + configs.version
             }
         ]
     },
@@ -388,7 +388,7 @@ export const categories: ICategory[] = [
                 name_ru: "Мороженое рожок",
                 desc_ru: "",
                 price: "10",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Inghetata cornet.png?version=" + configs.version
             },
             {
                 name_ro: "Desert Maestro",
@@ -396,7 +396,7 @@ export const categories: ICategory[] = [
                 name_ru: "Десерт Maestro ",
                 desc_ru: "",
                 price: "25",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Desert Maestro.png?version=" + configs.version
             }
         ]
     },
@@ -411,7 +411,7 @@ export const categories: ICategory[] = [
                 name_ru: "Americano 150ml",
                 desc_ru: "",
                 price: "15",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/americano.png?version=" + configs.version
             },
             {
                 name_ro: "Espresso 30ml",
@@ -427,7 +427,7 @@ export const categories: ICategory[] = [
                 name_ru: "Cappuccino 200ml",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "assets/images/new-menu/capucino.png?version=" + configs.version
             },
             {
                 name_ro: "Ciocolata fierbinte 300",
@@ -466,7 +466,7 @@ export const categories: ICategory[] = [
                 name_ru: "Apa plata",
                 desc_ru: "",
                 price: "15",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Apa plata 0.5L.png?version=" + configs.version
             },
             {
                 name_ro: "Cappuccino 200ml",
@@ -482,7 +482,7 @@ export const categories: ICategory[] = [
                 name_ru: "Suc Rich in sortiment",
                 desc_ru: "",
                 price: "12",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Suc Rich in sortiment 200ml.png?version=" + configs.version
             },
             {
                 name_ro: "Cappy grapefruit",
@@ -490,7 +490,7 @@ export const categories: ICategory[] = [
                 name_ru: "Cappy grapefruit",
                 desc_ru: "",
                 price: "18",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Cappy grapefruit 330ml.png?version=" + configs.version
             },
             {
                 name_ro: "Cappy piersici",
@@ -498,7 +498,7 @@ export const categories: ICategory[] = [
                 name_ru: "Cappy piersici",
                 desc_ru: "",
                 price: "18",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Cappy piersici 330ml.png?version=" + configs.version
             },
             {
                 name_ro: "Cappy portocala",
@@ -506,7 +506,7 @@ export const categories: ICategory[] = [
                 name_ru: "Cappy portocala",
                 desc_ru: "",
                 price: "18",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Cappy portocala 330ml.png?version=" + configs.version
             },
             {
                 name_ro: "Frutti lamaie",
@@ -514,7 +514,7 @@ export const categories: ICategory[] = [
                 name_ru: "Frutti lamaie",
                 desc_ru: "",
                 price: "10",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Frutti lamaie 200ml.png?version=" + configs.version
             },
             {
                 name_ro: "Frutti mar",
@@ -522,7 +522,7 @@ export const categories: ICategory[] = [
                 name_ru: "Frutti mar",
                 desc_ru: "",
                 price: "10",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Frutti mar 200ml.png?version=" + configs.version
             },
             {
                 name_ro: "Apa carbogazoasa",
@@ -530,7 +530,7 @@ export const categories: ICategory[] = [
                 name_ru: "Apa carbogazoasa",
                 desc_ru: "",
                 price: "10",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Apa carbogazoasa 200ml.png?version=" + configs.version
             },
             {
                 name_ro: "Ice tea zmeura",
@@ -538,7 +538,7 @@ export const categories: ICategory[] = [
                 name_ru: "Ice tea zmeura",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Ice tea zmeura 0,5L.png?version=" + configs.version
             },
             {
                 name_ro: "Ice tea verde",
@@ -546,7 +546,7 @@ export const categories: ICategory[] = [
                 name_ru: "Ice tea verde",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Ice tea verde 0,5L.png?version=" + configs.version
             },
             {
                 name_ro: "Ice tea lamaie",
@@ -554,7 +554,7 @@ export const categories: ICategory[] = [
                 name_ru: "Ice tea lamaie",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Ice tea lamaie 0,5L.png?version=" + configs.version
             },
             {
                 name_ro: "Ice tea piersici",
@@ -562,7 +562,7 @@ export const categories: ICategory[] = [
                 name_ru: "Ice tea piersici",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Ice tea piersici 0,5L.png?version=" + configs.version
             },
             {
                 name_ro: "Coca Cola 250ml",
@@ -570,7 +570,7 @@ export const categories: ICategory[] = [
                 name_ru: "Coca Cola 250ml",
                 desc_ru: "",
                 price: "12",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/cola250ml (1).png?version=" + configs.version
             },
             {
                 name_ro: "Shweppes grapefruit",
@@ -578,7 +578,7 @@ export const categories: ICategory[] = [
                 name_ru: "Shweppes grapefruit",
                 desc_ru: "",
                 price: "12",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Schweppes grapefruit 250ml.png?version=" + configs.version
             },
             {
                 name_ro: "Shweppes mojito",
@@ -586,7 +586,7 @@ export const categories: ICategory[] = [
                 name_ru: "Shweppes mojito",
                 desc_ru: "",
                 price: "12",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/Schweppes mojito 250ml.png?version=" + configs.version
             },
             {
                 name_ro: "Sprite 250ml",
@@ -594,7 +594,7 @@ export const categories: ICategory[] = [
                 name_ru: "Sprite 250ml",
                 desc_ru: "",
                 price: "12",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/sprirte250ml (2).png?version=" + configs.version
             },
             {
                 name_ro: "Fanta 250ml",
@@ -602,7 +602,7 @@ export const categories: ICategory[] = [
                 name_ru: "Fanta 250ml",
                 desc_ru: "",
                 price: "12",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/fanta250ml (3).png?version=" + configs.version
             },
             {
                 name_ro: "Sprite 0,5",
@@ -610,7 +610,7 @@ export const categories: ICategory[] = [
                 name_ru: "Sprite 0,5",
                 desc_ru: "",
                 price: "15",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/sprite 0,5ml.png?version=" + configs.version
             },
             {
                 name_ro: "Coca Cola 0,5",
@@ -618,7 +618,7 @@ export const categories: ICategory[] = [
                 name_ru: "Coca Cola 0,5",
                 desc_ru: "",
                 price: "15",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/cola 0,5ml.png?version=" + configs.version
             },
             {
                 name_ro: "Fanta 0,5",
@@ -626,7 +626,7 @@ export const categories: ICategory[] = [
                 name_ru: "Fanta 0,5",
                 desc_ru: "",
                 price: "15",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/fanta 0,5ml.png?version=" + configs.version
             }
         ]
     }

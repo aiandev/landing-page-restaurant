@@ -12,7 +12,7 @@ const Product: FC<IProductProps> = ({product}) => {
     const {t} = useTranslation(namespaces.pages.menu);
 
     return (
-        <div className="col-md-4 col-sm-6 ">
+        <div className="col-md-4 col-sm-6 my-2">
             <div className="single-recipe mt-2">
                 <div className="top-area">
                     <div className="img">
@@ -28,8 +28,8 @@ const Product: FC<IProductProps> = ({product}) => {
                     </a>
                 </div>
                 <div className="recipe-main-content">
-                    <h5 className="name">{product["name_" + i18n.language]}</h5>
-                    <p className="name">{product["desc_" + i18n.language]}</p>
+                    <h6 className="name">{product["name_" + i18n.language]}</h6>
+                    <p>{product["desc_" + i18n.language]}</p>
                     <div className="price">
                         {product.price} {t("currency")}
                     </div>

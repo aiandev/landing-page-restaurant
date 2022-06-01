@@ -18,7 +18,7 @@ function AboutUs() {
                                 <p>{t("description_1")}</p>
                                 <p>{t("description_2")}</p>
                             </div>
-                            <img src="assets/images/sign.png" alt="" />
+                            <img width={"600px"} src="assets/images/sign.webp" alt="" />
                         </div>
                     </div>
                     <div className="col-lg-6 align-self-center">

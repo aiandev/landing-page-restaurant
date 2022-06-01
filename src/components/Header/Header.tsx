@@ -50,10 +50,10 @@ function Header() {
                             <a href="/#">{t("home")}</a>
                         </li>
                         <li>
-                            <a href="#about">{t("about")}</a>
+                            <a href="#menu">{t("menu")}</a>
                         </li>
                         <li>
-                            <a href="#menu">{t("menu")}</a>
+                            <a href="#about">{t("about")}</a>
                         </li>
                         <li>
                             <a href="#footer">{t("contact_us")}</a>

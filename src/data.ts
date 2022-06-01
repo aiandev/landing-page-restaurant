@@ -469,14 +469,6 @@ export const categories: ICategory[] = [
                 image: "menu/Apa plata 0.5L.png?version=" + configs.version
             },
             {
-                name_ro: "Cappuccino 200ml",
-                desc_ro: "",
-                name_ru: "Cappuccino 200ml",
-                desc_ru: "",
-                price: "8",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
-            },
-            {
                 name_ro: "Suc Rich in sortiment",
                 desc_ro: "",
                 name_ru: "Suc Rich in sortiment",

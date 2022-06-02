@@ -69,6 +69,14 @@ export const categories: ICategory[] = [
                 image: "menu/Aripioare.png?version=" + configs.version
             },
             {
+                name_ro: "Nuggets",
+                desc_ro: "5 sau 8 buc",
+                name_ru: "Крылышки",
+                desc_ru: "По 5 или 8 шт",
+                price: "55/72",
+                image: "menu/nuggetss.png?version=" + configs.version
+            },
+            {
                 name_ro: "Crispy fileu",
                 desc_ro: "4 sau 7 buc +sos",
                 name_ru: "Crispy филе",
@@ -359,6 +367,30 @@ export const categories: ICategory[] = [
                 desc_ru: "",
                 price: "20",
                 image: "menu/Salata din varza cu sos.png?version=" + configs.version
+            },
+            {
+                name_ro: "Salata de linte",
+                desc_ro: "Salata din linte",
+                name_ru: "Крылышки",
+                desc_ru: "По 5 или 8 шт",
+                price: "20",
+                image: "menu/Salata de linte.png?version=" + configs.version
+            },
+            {
+                name_ro: "Salata cu creveti",
+                desc_ro: "Salata din creveti",
+                name_ru: "Крылышки",
+                desc_ru: "По 5 или 8 шт",
+                price: "20",
+                image: "menu/Salata cu crevet.png?version=" + configs.version
+            },
+            {
+                name_ro: "Crevete",
+                desc_ro: "6 buc",
+                name_ru: "Крылышки",
+                desc_ru: "По 5 или 8 шт",
+                price: "37",
+                image: "menu/crevete.png?version=" + configs.version
             }
         ]
     },
@@ -392,7 +424,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Desert Maestro",
-                desc_ro: "Inghetata cu sos de caramel si granola",
+                desc_ro: "Inghetata cu sirop de caramela ",
                 name_ru: "Десерт Maestro ",
                 desc_ru: "",
                 price: "25",
@@ -458,7 +490,7 @@ export const categories: ICategory[] = [
                 name_ru: "Airan",
                 desc_ru: "",
                 price: "20",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
+                image: "menu/airan.png?version=" + configs.version
             },
             {
                 name_ro: "Apa plata",

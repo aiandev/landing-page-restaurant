@@ -70,7 +70,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Nuggets",
-                desc_ro: "5 sau 8 buc",
+                desc_ro: "6 sau 10 buc",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
                 price: "55/72",
@@ -370,7 +370,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Salata de linte",
-                desc_ro: "Salata din linte",
+                desc_ro: "Salata de linte",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
                 price: "20",
@@ -378,7 +378,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Salata cu creveti",
-                desc_ro: "Salata din creveti",
+                desc_ro: "Salata cu creveti",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
                 price: "20",

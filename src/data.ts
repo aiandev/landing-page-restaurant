@@ -361,14 +361,6 @@ export const categories: ICategory[] = [
                 image: "assets/images/new-menu/coleslow.png?version=" + configs.version
             },
             {
-                name_ro: "Coleslow dulce/sarat",
-                desc_ro: "Salata din varza cu sos",
-                name_ru: "Коулслоу",
-                desc_ru: "",
-                price: "20",
-                image: "menu/Salata din varza cu sos.png?version=" + configs.version
-            },
-            {
                 name_ro: "Salata de linte",
                 desc_ro: "Salata din linte",
                 name_ru: "Крылышки",

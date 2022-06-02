@@ -140,7 +140,7 @@ export const categories: ICategory[] = [
                 image: "menu/Wrap cu falafel.png?version=" + configs.version
             },
             {
-                name_ro: "Wrap cu fileu meniu mediu /hot",
+                name_ro: "Wrap cu fileu meniu mediu",
                 desc_ro: "picant/ nepicant",
                 name_ru: "Врап с филе меню среднее",
                 desc_ru: "острое/не острое",
@@ -404,7 +404,7 @@ export const categories: ICategory[] = [
                 desc_ro: "2 file de pui, cartofi, suc , sos, jucarie",
                 name_ru: "Детское меню",
                 desc_ru: "2 филе, картофель фри, сок, соус, игрушка",
-                price: "20",
+                price: "65",
                 image: "menu/Meniu pentru copii.png?version=" + configs.version
             }
         ]
@@ -499,14 +499,6 @@ export const categories: ICategory[] = [
                 desc_ru: "",
                 price: "15",
                 image: "menu/Apa plata 0.5L.png?version=" + configs.version
-            },
-            {
-                name_ro: "Cappuccino 200ml",
-                desc_ro: "",
-                name_ru: "Cappuccino 200ml",
-                desc_ru: "",
-                price: "8",
-                image: "assets/images/placeholder-logo.png?version=" + configs.version
             },
             {
                 name_ro: "Suc Rich in sortiment",

@@ -15,7 +15,7 @@ const Category: FC<ICategoryProps> = ({category}) => {
         >
             <h3>{category["name_" + i18n.language]}</h3>
             <div className="main-content">
-                <div className="row">
+                <div className="row my-2">
                     {category.products.map((product, index) => {
                         return <Product key={index} product={product}></Product>;
                     })}

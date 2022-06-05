@@ -362,26 +362,26 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Salata de linte",
-                desc_ro: "Salata de linte",
+                desc_ro: "",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
-                price: "20",
+                price: "30",
                 image: "menu/Salata de linte.png?version=" + configs.version
             },
             {
                 name_ro: "Salata cu creveti",
-                desc_ro: "Salata cu creveti",
+                desc_ro: "",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
-                price: "20",
+                price: "70",
                 image: "menu/Salata cu crevet.png?version=" + configs.version
             },
             {
-                name_ro: "Crevete",
-                desc_ro: "6 buc",
+                name_ro: "Creveti 6buc",
+                desc_ro: "",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
-                price: "37",
+                price: "70",
                 image: "menu/crevete.png?version=" + configs.version
             }
         ]

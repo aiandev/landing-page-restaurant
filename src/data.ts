@@ -22,7 +22,7 @@ export const categories: ICategory[] = [
         products: [
             {
                 name_ro: "Hot wings bucket",
-                desc_ro: "20 aripioare",
+                desc_ro: "20 aripioare picante",
 
                 name_ru: "Hot wings bucket",
                 desc_ru: "20 крылышек",
@@ -34,7 +34,7 @@ export const categories: ICategory[] = [
                 desc_ro: "2 gambe, 6 file+2 bauturi ,2 cartofi",
                 name_ru: "Bucket for two",
                 desc_ru: "2 ножки, 6 филе + напиток и картофель фри",
-                price: "130",
+                price: "130/140",
                 image: "menu/family buc.png?version=" + configs.version
             },
             {
@@ -50,7 +50,7 @@ export const categories: ICategory[] = [
                 desc_ro: "4 gambe, 4 file+ 3 cartofi, 3 bauturi",
                 name_ru: "Family bucket",
                 desc_ru: "4 ножки, 4 филе + напиток и картофель фри",
-                price: "200",
+                price: "200/215",
                 image: "menu/family buc.png?version=" + configs.version
             }
         ]
@@ -73,7 +73,7 @@ export const categories: ICategory[] = [
                 desc_ro: "6 sau 10 buc",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",
-                price: "55/72",
+                price: "49/72",
                 image: "menu/nuggetss.png?version=" + configs.version
             },
             {
@@ -89,7 +89,7 @@ export const categories: ICategory[] = [
                 desc_ro: "4 sau 7 buc crispy file cu bautura la alegere si cartofi",
                 name_ru: "Crispy филе меню",
                 desc_ru: "4 или 7 шт хрустящего филе с напитком на выбор, картофелем фри и соусом",
-                price: "77/85",
+                price: "77/82",
                 image: "menu/Crispy fileu meniu.png?version=" + configs.version
             },
             {
@@ -97,7 +97,7 @@ export const categories: ICategory[] = [
                 desc_ro: "5 sau 8 buc aripioare cu bautura la alegere si cartofi",
                 name_ru: "Меню крылышки",
                 desc_ru: "5 или 8 крылышек с напитком на выбор и картофелем фри",
-                price: "75/95",
+                price: "75/80",
                 image: "menu/Meniu aripioare.png?version=" + configs.version
             },
             {
@@ -105,7 +105,7 @@ export const categories: ICategory[] = [
                 desc_ro: "2 gambe cu bautura la alegere si cartofi",
                 name_ru: "Меню ножки",
                 desc_ru: "2 ножки с напитком на выбор и картофелем фри",
-                price: "60",
+                price: "60/65",
                 image: "menu/Meniu gambe.png?version=" + configs.version
             },
             {
@@ -141,7 +141,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Wrap cu fileu meniu mediu",
-                desc_ro: "picant/ nepicant",
+                desc_ro:
+                    "wrap cu file picant/nepicant, portia de cartof mediu, bautura 250ml la alegere si sos",
                 name_ru: "Врап с филе меню среднее",
                 desc_ru: "острое/не острое",
                 price: "70",
@@ -149,7 +150,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Wrap cu fileiu meniu mare /hot",
-                desc_ro: "picant/nepicant",
+                desc_ro:
+                    "wrap cu file picant/nepicant, portia de cartof mare ,bautura 500ml la alegere si sos",
                 name_ru: "Врап с филе меню большое",
                 desc_ru: "острое / не острое",
                 price: "75",
@@ -157,7 +159,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Wrap cu falafel meniu mediu /hot",
-                desc_ro: "Wrap, cartof+bautura",
+                desc_ro: "wrap cu falafel ,portia de cartof mediu, bautura 250ml la alegere si sos",
                 name_ru: "Врап с фалафелем меню среднее",
                 desc_ru: "Врап, картофель фри и напиток",
                 price: "70",
@@ -165,7 +167,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Wrap cu falafel meniu mare/hot",
-                desc_ro: "Wrap, cartof+bautura",
+                desc_ro: "wrap cu falafel, portia de cartof mare, bautura 500ml la alegere si sos",
                 name_ru: "Врап с фалафелем меню большое",
                 desc_ru: "Врап, картофель фри и напиток",
                 price: "75",
@@ -204,7 +206,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Crispy burger",
-                desc_ro: "",
+                desc_ro: "Burger cu carne de pui crocant",
                 name_ru: "Бургер Crispy",
                 desc_ru: "",
                 price: "40",
@@ -220,7 +222,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Combo burger meniu",
-                desc_ro: "",
+                desc_ro:
+                    "Burger cu carne de pui crocant,portia de cartof mediu, 5buc. inele din ceapa, bautura 250ml la alegere si sos",
                 name_ru: "Бургер меню комбо",
                 desc_ru: "",
                 price: "55",
@@ -228,7 +231,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Combo burger meniu mare/hot",
-                desc_ro: "",
+                desc_ro:
+                    "Burger cu carne de pui crocant,portia de cartof mare, 5buc. inele din ceapa, bautura 500ml la alegere si sos",
                 name_ru: "Бургер меню комбо большое",
                 desc_ru: "",
                 price: "66",
@@ -236,7 +240,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Dublu burger meniu mediu/hot",
-                desc_ro: "",
+                desc_ro:
+                    "Burger dublu picant/nepicant cu carne de pui crocant, portia de cartof mediu, bautura 250ml la alegere si sos",
                 name_ru: "Двойной бургер меню среднее",
                 desc_ru: "",
                 price: "57",
@@ -244,7 +249,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Dublu burger meniu mare/hot",
-                desc_ro: "",
+                desc_ro:
+                    "Burger dublu picant/nepicant cu carne de pui crocant, portia de cartof mare, bautura 500ml la alegere si sos",
                 name_ru: "Двойной бургер меню большое",
                 desc_ru: "",
                 price: "62",
@@ -252,7 +258,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Double crispy burger meniu mediu/hot",
-                desc_ro: "",
+                desc_ro:
+                    "Dublu crispy burger picant/nepicant cu carne de pui crocant, portia de cartof mediu, bautura 250ml la alegere si sos.",
                 name_ru: "Двойной бургер Crispy меню среднее",
                 desc_ru: "",
                 price: "63",
@@ -260,7 +267,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Double crispy burger meniu mare/hot",
-                desc_ro: "",
+                desc_ro:
+                    "Dublu crispy burger picant/nepicant cu carne de pui crocant, portia de cartof mare, bautura 500ml la alegere si sos.",
                 name_ru: "Двойной бургер Crispy меню большое",
                 desc_ru: "",
                 price: "68",
@@ -416,7 +424,8 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Desert Maestro",
-                desc_ro: "Inghetata cu sirop de caramela ",
+                desc_ro:
+                    "Inghetata cu sirop de caramela, ciocolata sau capsuna, granola, nuca si cubulete de mar ",
                 name_ru: "Десерт Maestro ",
                 desc_ru: "",
                 price: "25",
@@ -478,7 +487,7 @@ export const categories: ICategory[] = [
         products: [
             {
                 name_ro: "Airan",
-                desc_ro: "",
+                desc_ro: "Airan 420ml",
                 name_ru: "Airan",
                 desc_ru: "",
                 price: "20",
@@ -486,15 +495,15 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Apa plata",
-                desc_ro: "",
+                desc_ro: "Apa plata 0.5L",
                 name_ru: "Apa plata",
                 desc_ru: "",
-                price: "15",
+                price: "8",
                 image: "menu/Apa plata 0.5L.png?version=" + configs.version
             },
             {
                 name_ro: "Suc Rich in sortiment",
-                desc_ro: "",
+                desc_ro: "Suc Rich in sortiment 200ml",
                 name_ru: "Suc Rich in sortiment",
                 desc_ru: "",
                 price: "12",
@@ -502,7 +511,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Cappy grapefruit",
-                desc_ro: "",
+                desc_ro: "Cappy grapefruit 330ml",
                 name_ru: "Cappy grapefruit",
                 desc_ru: "",
                 price: "18",
@@ -510,7 +519,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Cappy piersici",
-                desc_ro: "",
+                desc_ro: "Cappy piersici 330ml",
                 name_ru: "Cappy piersici",
                 desc_ru: "",
                 price: "18",
@@ -518,7 +527,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Cappy portocala",
-                desc_ro: "",
+                desc_ro: "Cappy portocala 330ml",
                 name_ru: "Cappy portocala",
                 desc_ru: "",
                 price: "18",
@@ -526,7 +535,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Frutti lamaie",
-                desc_ro: "",
+                desc_ro: "Frutti lamaie 200ml",
                 name_ru: "Frutti lamaie",
                 desc_ru: "",
                 price: "10",
@@ -534,7 +543,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Frutti mar",
-                desc_ro: "",
+                desc_ro: "Frutti mar 200ml",
                 name_ru: "Frutti mar",
                 desc_ru: "",
                 price: "10",
@@ -542,7 +551,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Apa carbogazoasa",
-                desc_ro: "",
+                desc_ro: "Apa carbogazoasa 200ml",
                 name_ru: "Apa carbogazoasa",
                 desc_ru: "",
                 price: "10",
@@ -550,7 +559,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Ice tea zmeura",
-                desc_ro: "",
+                desc_ro: "Ice tea zmeura 0,5L",
                 name_ru: "Ice tea zmeura",
                 desc_ru: "",
                 price: "20",
@@ -558,7 +567,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Ice tea verde",
-                desc_ro: "",
+                desc_ro: "Ice tea verde 0,5L",
                 name_ru: "Ice tea verde",
                 desc_ru: "",
                 price: "20",
@@ -566,7 +575,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Ice tea lamaie",
-                desc_ro: "",
+                desc_ro: "Ice tea lamaie 0,5L",
                 name_ru: "Ice tea lamaie",
                 desc_ru: "",
                 price: "20",
@@ -574,7 +583,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Ice tea piersici",
-                desc_ro: "",
+                desc_ro: "Ice tea piersici 0,5L",
                 name_ru: "Ice tea piersici",
                 desc_ru: "",
                 price: "20",
@@ -582,7 +591,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Coca Cola 250ml",
-                desc_ro: "",
+                desc_ro: "Coca Cola 250ml",
                 name_ru: "Coca Cola 250ml",
                 desc_ru: "",
                 price: "12",
@@ -590,7 +599,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Shweppes grapefruit",
-                desc_ro: "",
+                desc_ro: "Schweppes grapefruit 250ml",
                 name_ru: "Shweppes grapefruit",
                 desc_ru: "",
                 price: "12",
@@ -598,7 +607,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Shweppes mojito",
-                desc_ro: "",
+                desc_ro: "Schweppes mojito 250ml",
                 name_ru: "Shweppes mojito",
                 desc_ru: "",
                 price: "12",
@@ -606,7 +615,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Sprite 250ml",
-                desc_ro: "",
+                desc_ro: "Sprite 250ml",
                 name_ru: "Sprite 250ml",
                 desc_ru: "",
                 price: "12",
@@ -614,7 +623,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Fanta 250ml",
-                desc_ro: "",
+                desc_ro: "Fanta 250ml",
                 name_ru: "Fanta 250ml",
                 desc_ru: "",
                 price: "12",
@@ -622,7 +631,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Sprite 0,5",
-                desc_ro: "",
+                desc_ro: "Sprite 0,5L",
                 name_ru: "Sprite 0,5",
                 desc_ru: "",
                 price: "15",
@@ -630,7 +639,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Coca Cola 0,5",
-                desc_ro: "",
+                desc_ro: "Coca Cola 0,5L",
                 name_ru: "Coca Cola 0,5",
                 desc_ru: "",
                 price: "15",
@@ -638,7 +647,7 @@ export const categories: ICategory[] = [
             },
             {
                 name_ro: "Fanta 0,5",
-                desc_ro: "",
+                desc_ro: "Fanta 0,5L",
                 name_ru: "Fanta 0,5",
                 desc_ru: "",
                 price: "15",

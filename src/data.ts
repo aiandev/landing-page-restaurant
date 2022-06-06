@@ -322,9 +322,9 @@ export const categories: ICategory[] = [
                 image: "menu/cartofi.png?version=" + configs.version
             },
             {
-                name_ro: "Orez 200g",
+                name_ro: "Orez 250g",
                 desc_ro: "",
-                name_ru: "Рис 200гр",
+                name_ru: "Рис 250гр",
                 desc_ru: "",
                 price: "20",
                 image: "assets/images/new-menu/orez.png?version=" + configs.version
@@ -369,7 +369,7 @@ export const categories: ICategory[] = [
                 image: "assets/images/new-menu/coleslow.png?version=" + configs.version
             },
             {
-                name_ro: "Salata de linte",
+                name_ro: "Supa de linte",
                 desc_ro: "",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",

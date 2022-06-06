@@ -361,7 +361,7 @@ export const categories: ICategory[] = [
                 image: "menu/Salata din legume cu feta.png?version=" + configs.version
             },
             {
-                name_ro: "Salata Cezar",
+                name_ro: "Salata Cezar 330g",
                 desc_ro: "Salata din legume cu pui",
                 name_ru: "Салат Цезарь",
                 desc_ru: "",

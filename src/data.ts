@@ -52,6 +52,14 @@ export const categories: ICategory[] = [
                 desc_ru: "4 ножки, 4 филе + напиток и картофель фри",
                 price: "200/215",
                 image: "menu/family buc.png?version=" + configs.version
+            },
+            {
+                name_ro: "Yummy bucket",
+                desc_ro: "3 gambe, 9 aripi, 2 cartofi, 2 bauturi",
+                name_ru: "Share Bucket",
+                desc_ru: "9 филе, 9 крылышек",
+                price: "155",
+                image: "menu/family buc.png?version=" + configs.version
             }
         ]
     },

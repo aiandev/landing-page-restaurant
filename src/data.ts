@@ -322,7 +322,7 @@ export const categories: ICategory[] = [
                 image: "menu/falafel.png?version=" + configs.version
             },
             {
-                name_ro: "Cartofi 110/200g",
+                name_ro: "Cartofi 110/gi",
                 desc_ro: "",
                 name_ru: "Картофель фри 110/200гр",
                 desc_ru: "",
@@ -369,7 +369,7 @@ export const categories: ICategory[] = [
                 image: "menu/Salata din legume cu pui.png?version=" + configs.version
             },
             {
-                name_ro: "Coleslow dulce/sarat",
+                name_ro: "Coleslow dulce/sarat 200g",
                 desc_ro: "Salata din varza cu sos",
                 name_ru: "Коулслоу",
                 desc_ru: "",

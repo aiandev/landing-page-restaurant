@@ -30,9 +30,9 @@ export const categories: ICategory[] = [
                 image: "menu/hot wings bucket.png?version=" + configs.version
             },
             {
-                name_ro: "Bucket for two",
+                name_ro: "Bucket for two/mare",
                 desc_ro: "2 gambe, 6 file+2 bauturi ,2 cartofi",
-                name_ru: "Bucket for two",
+                name_ru: "Bucket for two/mare",
                 desc_ru: "2 ножки, 6 филе + напиток и картофель фри",
                 price: "130/140",
                 image: "menu/family buc.png?version=" + configs.version

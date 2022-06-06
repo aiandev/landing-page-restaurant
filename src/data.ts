@@ -353,7 +353,7 @@ export const categories: ICategory[] = [
         name_ru: "SALATE",
         products: [
             {
-                name_ro: "Salata Greceasca",
+                name_ro: "Salata Greceasca 310g ",
                 desc_ro: "Salata din legume cu feta",
                 name_ru: "Салат Греческий",
                 desc_ru: "",
@@ -377,7 +377,7 @@ export const categories: ICategory[] = [
                 image: "assets/images/new-menu/coleslow.png?version=" + configs.version
             },
             {
-                name_ro: "Supa de linte",
+                name_ro: "Supa de linte 350g",
                 desc_ro: "",
                 name_ru: "Крылышки",
                 desc_ru: "По 5 или 8 шт",

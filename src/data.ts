@@ -97,7 +97,7 @@ export const categories: ICategory[] = [
                 desc_ro: "4 sau 7 buc crispy file cu bautura la alegere si cartofi",
                 name_ru: "Crispy филе меню",
                 desc_ru: "4 или 7 шт хрустящего филе с напитком на выбор, картофелем фри и соусом",
-                price: "77/82",
+                price: "77/90",
                 image: "menu/Crispy fileu meniu.png?version=" + configs.version
             },
             {

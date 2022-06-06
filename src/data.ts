@@ -471,7 +471,7 @@ export const categories: ICategory[] = [
                 image: "assets/images/new-menu/capucino.png?version=" + configs.version
             },
             {
-                name_ro: "Ciocolata fierbinte 300",
+                name_ro: "Ciocolata fierbinte 300ml",
                 desc_ro: "",
                 name_ru: "Ciocolata fierbinte 300",
                 desc_ru: "",

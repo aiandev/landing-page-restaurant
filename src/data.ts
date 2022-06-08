@@ -128,8 +128,8 @@ export const categories: ICategory[] = [
     },
     {
         id: "wrap_meniu_fahita",
-        name_ro: "WRAP MENIU / FAHITA",
-        name_ru: "WRAP MENIU / FAHITA",
+        name_ro: "WRAP MENIU / FAJITA",
+        name_ru: "WRAP MENIU / FAJITA",
         products: [
             {
                 name_ro: "Wrap cu fileu",
@@ -157,7 +157,7 @@ export const categories: ICategory[] = [
                 image: "menu/Wrap cu fileu meniu mediu hot.png?version=" + configs.version
             },
             {
-                name_ro: "Wrap cu fileiu meniu mare /hot",
+                name_ro: "Wrap cu fileu meniu mare /hot",
                 desc_ro:
                     "wrap cu file picant/nepicant, portia de cartof mare ,bautura 500ml la alegere si sos",
                 name_ru: "Врап с филе меню большое",
@@ -240,7 +240,7 @@ export const categories: ICategory[] = [
             {
                 name_ro: "Combo burger meniu mare/hot",
                 desc_ro:
-                    "Burger cu carne de pui crocant,portia de cartof mare, 5buc. inele din ceapa, bautura 500ml la alegere si sos",
+                    "Burger cu carne de pui crocant,portia de cartof mare, 5buc. inele de ceapa, bautura 500ml la alegere si sos",
                 name_ru: "Бургер меню комбо большое",
                 desc_ru: "",
                 price: "66",

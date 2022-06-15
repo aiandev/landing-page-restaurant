@@ -231,7 +231,7 @@ export const categories: ICategory[] = [
             {
                 name_ro: "Combo burger meniu",
                 desc_ro:
-                    "Burger cu carne de pui crocant,portia de cartof mediu, 5buc. inele din ceapa, bautura 250ml la alegere si sos",
+                    "Burger cu carne de pui crocant,portia de cartof mediu, 5buc. inele de ceapa, bautura 250ml la alegere si sos",
                 name_ru: "Бургер меню комбо",
                 desc_ru: "",
                 price: "55",

@@ -306,7 +306,7 @@ export const categories: ICategory[] = [
                 image: "assets/images/new-menu/babaganus.png?version=" + configs.version
             },
             {
-                name_ro: "Inele de ceapa 120g",
+                name_ro: "Inele de ceapa 7buc",
                 desc_ro: "",
                 name_ru: "Луковые кольца 120gr",
                 desc_ru: "Закуска  ",
